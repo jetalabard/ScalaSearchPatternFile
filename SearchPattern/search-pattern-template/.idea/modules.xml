@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search.iml" filepath="$PROJECT_DIR$/.idea/modules/search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search-build.iml" filepath="$PROJECT_DIR$/.idea/modules/search-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search-pattern.iml" filepath="$PROJECT_DIR$/.idea/modules/search-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search-pattern-build.iml" filepath="$PROJECT_DIR$/.idea/modules/search-pattern-build.iml" />
+    </modules>
+  </component>
+</project>

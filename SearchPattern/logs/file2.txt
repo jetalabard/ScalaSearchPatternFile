@@ -1,0 +1,26 @@
+[2015-06-23 13:57:16,535] ERROR [BrokerChangeListener on Controller 2]: Error while handling broker changes (kafka.controller.ReplicaStateMachine$BrokerChangeListener)
+java.lang.IllegalStateException: Controller to broker state change requests batch is not empty while creating a new one. Some UpdateMetadata state changes Map(2 -> Map([prod-sver-end,1] -> (LeaderAndIsrInfo:(Leader:-2,ISR:1,LeaderEpoch:0,ControllerEpoch:165),ReplicationFactor:1),AllReplicas:1)), 1 -> Map([prod-sver-end,1] -> (LeaderAndIsrInfo:(Leader:-2,ISR:1,LeaderEpoch:0,ControllerEpoch:165),ReplicationFactor:1),AllReplicas:1)), 3 -> Map([prod-sver-end,1] -> (LeaderAndIsrInfo:(Leader:-2,ISR:1,LeaderEpoch:0,ControllerEpoch:165),ReplicationFactor:1),AllReplicas:1))) might be lost
+at kafka.controller.ControllerBrokerRequestBatch.newBatch(ControllerChannelManager.scala:202)
+at kafka.controller.KafkaController.sendUpdateMetadataRequest(KafkaController.scala:974)
+at kafka.controller.KafkaController.onBrokerStartup(KafkaController.scala:399)
+at kafka.controller.ReplicaStateMachine$BrokerChangeListener$$anonfun$handleChildChange$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(ReplicaStateMachine.scala:371)
+at kafka.controller.ReplicaStateMachine$BrokerChangeListener$$anonfun$handleChildChange$1$$anonfun$apply$mcV$sp$1.apply(ReplicaStateMachine.scala:359)
+at kafka.controller.ReplicaStateMachine$BrokerChangeListener$$anonfun$handleChildChange$1$$anonfun$apply$mcV$sp$1.apply(ReplicaStateMachine.scala:359)
+at kafka.metrics.KafkaTimer.time(KafkaTimer.scala:33)
+at kafka.controller.ReplicaStateMachine$BrokerChangeListener$$anonfun$handleChildChange$1.apply$mcV$sp(ReplicaStateMachine.scala:358)
+at kafka.controller.ReplicaStateMachine$BrokerChangeListener$$anonfun$handleChildChange$1.apply(ReplicaStateMachine.scala:357)
+at kafka.controller.ReplicaStateMachine$BrokerChangeListener$$anonfun$handleChildChange$1.apply(ReplicaStateMachine.scala:357)
+at kafka.utils.Utils$.inLock(Utils.scala:535)
+at kafka.controller.ReplicaStateMachine$BrokerChangeListener.handleChildChange(ReplicaStateMachine.scala:356)
+at org.I0Itec.zkclient.ZkClient$7.run(ZkClient.java:568)
+at org.I0Itec.zkclient.ZkEventThread.run(ZkEventThread.java:71)
+}}
+
+test line
+second line
+234 third line
+22 what's up
+23464365 here i am
+4 what !
+43 a new line !!
+3453254 the end
